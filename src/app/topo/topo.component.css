@@ -1,0 +1,8 @@
+.navbar {
+  background: linear-gradient(to bottom, #0d1117, #444654);
+  font-family: "Lucida Console", monospace;
+}
+
+h1 {
+  color: white;
+}

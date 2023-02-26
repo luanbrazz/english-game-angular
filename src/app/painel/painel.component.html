@@ -1,4 +1,43 @@
-<app-progresso></app-progresso>
-<app-tentativas></app-tentativas>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-6">
+        <app-progresso></app-progresso>
+      </div>
+      <div class="col-sm-6">
+        <div class="d-flex justify-content-end">
+          <app-tentativas></app-tentativas>
+        </div>
+      </div>
+    </div>
 
-<p>painel works!</p>
+    <div class="row">
+      <div class="col">
+        <h6 class="">Traduza a frase</h6>
+        <p>Lorem, ipsum dolor?</p>
+
+        <div class="form-group">
+          <textarea
+            class="form-control bg-dark text-white"
+            id="resposta"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-end">
+          <button
+            type="button"
+            class="btn btn-success"
+            style="background-color: #2ea043"
+          >
+            Verificar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
