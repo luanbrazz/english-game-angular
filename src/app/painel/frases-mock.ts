@@ -1,6 +1,6 @@
 import { Frase } from "../shared/frase.model";
 
-const FRASES: Frase[] = [
+export const FRASES: Frase[] = [
   { fraseEng: "I'm running a little late.", frasePtBr: "Eu estou um pouco atrasado." },
   { fraseEng: "Are you up to anything tonight? ", frasePtBr: "Você vai fazer alguma coisa hoje à noite?" },
   { fraseEng: "You've got to be kidding me! ", frasePtBr: "Você só pode estar brincando comigo!" },
